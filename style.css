@@ -1,0 +1,218 @@
+
+
+
+.container{
+    width: 100%;
+}
+
+.contenido{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 4px;
+}
+
+#cabecera{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cabecera1{
+    margin-top: 32px;
+    display: flex;
+    text-align: left;
+}
+
+#imagen1{
+    margin-left: 10px;
+}
+
+#iconos-redes{
+    display: flex;
+    justify-content: right;
+}
+
+#insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:45px;
+    height:45px;
+    margin-top: 32px;
+    margin-left: 10px;
+    border-radius:100%;
+    border:3px solid #f4bb00;
+}
+
+#twitt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:45px;
+    height:45px;
+    margin-top: 32px;
+    margin-left: 10px;
+    border-radius:100%;
+    border:3px solid #f4bb00;
+}
+
+#face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:45px;
+    height:45px;
+    margin-top: 32px;
+    margin-left: 10px;
+    border-radius:100%;
+    border:3px solid #f4bb00;
+}
+
+#contenido2{
+    background-color: #f4bb00;
+    display: flex;
+    border-radius: 100%;
+    width: 520px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+#boton1{
+    background:#f4bb00;
+}
+
+
+
+.form{
+    background-color: #ffff;
+    width: 90%;
+    max-width: 700px;
+    padding: 3.5em 2em;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px 5px rgb(0 0 0 / 20%);
+ 
+}
+
+.form__submit{
+    background-color: #f4bb00;
+    border-radius: 50px;
+    text-align:center;
+    color: rgb(0, 0, 0);
+    text-decoration: none; 
+}
+
+#sing__up{
+    margin-top: 32px;
+    margin-left: 10px;
+    width:100px;
+
+}
+
+#elegir{
+    border-top: none;
+    border-left:none;
+    border-right:none;
+  
+}
+
+.texto-header{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    
+
+}
+
+.cont-filtro{
+    display:flex;
+    background-color: #f4bb00;
+    height: 52px;
+}
+
+.pet1{
+    background-color: #f4bb00;
+    height:100px;
+   
+}
+
+.pet2{
+    background-color: red;
+    height:100px;
+    
+}
+
+.info__pet{
+    display:flex;
+
+}
+
+.cont-hun-he{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+
+.elegir2{
+    max-width:150px;
+}
+
+.form-select{
+    width:100%;
+}
+
+.form__submit2{
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    height: 40px;
+    align-items: center;
+    border-radius:50px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+
+} 
+
+.find-u-pet{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 200px;
+    margin-top:50px;
+
+}
+
+.type-pet{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 150px;
+    width:150px;
+    background-color:white;
+    border-radius:15%;
+    margin-top: 70px;
+    
+}
+
+
+
+.content-type{
+    display: flex;
+    
+
+}
+
+.ticket-card strong {
+    display: block;
+    width: 100%; /* Asegura que el texto se ajuste al ancho del ticket */
+    max-width: 180px; /* Limita el ancho máximo del texto */
+    height: 20px; /* Limita la altura del texto */
+    line-height: 20px; /* Mantiene el texto alineado */
+    overflow: hidden; /* Oculta cualquier texto que se pase del límite */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    text-overflow: ellipsis; /* Agrega "..." cuando el texto es demasiado largo */
+}

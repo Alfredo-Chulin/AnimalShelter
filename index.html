@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap-icons/fontawesome.css">
+  <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="bg-light text-dark " id="haider">
+    <div class="container">
+      <div class="row">
+
+
+        <div class="col-sm-2" id="cabecera1">
+          <div>
+            <a href="index.html" class="texto-header">
+              <h3>Petfi</h3>
+            </a>
+          </div>
+          <div id="imagen1">
+            <img src="img/icono.png" width="35px" height="35px" alt="">
+          </div>
+        </div>
+
+        <div class="col-sm-5 text-sm-left" id="cabecera">
+          <nav>
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="newPet.html" class="texto-header"> <strong> Descubrir Mascotas</strong></a></li>
+              <li class="list-inline-item"><a href="#" class="texto-header"> <strong> Acerca de la Adopción</strong></a></li>
+              <li class="list-inline-item"><a href="#" class="texto-header"> <strong> Eventos</strong></a></li>
+              <li class="list-inline-item"><a href="#" class="texto-header"> <strong> Contactos</strong></a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="col-sm-5" id="iconos-redes">
+          <div id="insta">
+            <i class="fab fa-instagram fa-2x mr-3"></i>
+          </div>
+          <div id="twitt">
+            <i class="fab fa-twitter fa-2x mr-3"></i>
+          </div>
+          <div id="face">
+            <i class="fab fa-facebook-f fa-2x mr-3"></i>
+          </div>
+
+          <div id="sing__up">
+            <a href="#" class="texto-header"> <button type="sumbit" class="form__submit form-control"
+                class="texto-headetr"> <strong>Sign up</strong></button></a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </header>
+
+  <div class="contenido">
+    <!---------------------------------contenedor princilap del formulario----------------------------------------->
+    <div class=" contenido row">
+      <!-------------------------inicio del contenedor del row del formulario-------------------------------->
+      <div class="col-sm-6">
+        <h1>¡Adopta a tu nuevo <br> miembro de la familia hoy!</h1>
+        <p>Encontrar una mascota es sencillo. Simplemente busca el tipo <br> de animal y el tamaño de tu zona</p>
+
+        <form class="form">
+
+          <div class="container mt-1">
+            <label for="frutas" class="form-label">Tipo de Mascota</label>
+            <select class="form-select" id="elegir" name="frutas">
+              <option value="manzana" hidden>-/-</option>
+              <option value="banana">Banana</option>
+              <option value="uva">Uva</option>
+              <option value="naranja">Naranja</option>
+            </select>
+          </div>
+
+
+          <div class="container mt-4">
+            <label for="frutas" class="form-label">Tamaño</label>
+            <select class="form-select" id="elegir" name="frutas">
+              <option value="manzana" hidden>-/-</option>
+              <option value="banana">Banana</option>
+              <option value="uva">Uva</option>
+              <option value="naranja">Naranja</option>
+            </select>
+          </div>
+
+
+          <div class="container mt-4">
+            <label for="frutas" class="form-label">Lugar</label>
+            <select class="form-select" id="elegir" name="frutas">
+              <option value="manzana" hidden>-/-</option>
+              <option value="banana">Banana</option>
+              <option value="uva">Uva</option>
+              <option value="naranja">Naranja</option>
+            </select>
+          </div>
+
+
+          <br>
+          <button type="submit" class="form__submit form-control"><strong> Buscar</strong></button>
+        </form>
+      </div>
+
+
+
+      <!-- Segunda sección, ocupa 6 columnas en dispositivos pequeños (col-sm-6) y 12 en dispositivos grandes -->
+      <div class="col-sm-6" id="contenido2">
+        <div class="col-sm-12">
+          <img src="img/orejas.png" width="400px" height="500px">
+        </div>
+      </div>
+
+
+    </div>
+    <!--------------------------fin del row del contenedor principal del formulario------------------------------------->
+  </div>
+  <!--------------------------fin del contenedor principal del formulario--------------------------------------------->
+
+  <div class="find-u-pet">
+
+    <h2>FIND YOUR PET</h2>
+
+
+    <div class="content-type">
+
+      <div class="type-pet card">
+        <img src="img/perro.png" width="80px" height="80px" alt="">
+      </div>
+
+      <div class="type-pet card">
+        <img src="img/gato.png" width="80px" height="80px" alt="">
+      </div>
+
+      <div class="type-pet card">
+        <img src="img/huella.png" width="80px" height="80px" alt="">
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
